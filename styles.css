@@ -190,3 +190,65 @@ table {
     font-weight: bold;
     background: #BDE1FF;
     }
+    /* Contact Form */
+.contactinfo {
+    margin: 1em 0 2em 0;
+    }
+    .contactinfo div {
+    margin-bottom: 0.5em;
+    }
+    .contactinfo span:first-child {
+    font-weight: bold;
+    color: #4977D1;
+    margin-right: 0.5em;
+    }
+    form fieldset {
+    border: 1px solid #9ed034;
+    padding: 1.5em;
+    width: 100%;
+    }
+    form legend {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4977D1;
+    padding: 0 10px;
+    }
+    form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    }
+    .textbox input,
+    .selectmenu select,
+    .commentbox textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    }
+    .commentbox textarea {
+    height: 100px;
+    resize: vertical;
+    }
+    .radios label {
+    display: inline;
+    }
+    .radios input {
+    margin-left: 1em;
+    margin-right: 0.3em;
+    }
+    form .button {
+    text-align: right;
+    margin-top: 1.5em;
+    }
+    form .button input {
+    background-color: #4977D1;
+    color: #fff;
+    border: none;
+    padding: 0.7em 2em;
+    font-size: 1em;
+    cursor: pointer;
+    }
+    form .button input:hover {
+    background-color: #9ed034;
+    }
